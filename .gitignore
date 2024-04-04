@@ -7,3 +7,5 @@ Dockerfile
 annotations.md
 .phpunit.cache
 clover.xml
+/nbproject/private/
+composer.lock

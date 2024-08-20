@@ -155,7 +155,7 @@ Esta SDK, necessariamente, não reflete 100% dos recursos e funcionalidades disp
 
 Execute em seu shell:
 
-    composer require ipagdevs/ipag-sdk-php
+    composer require webflixtec/sdk-php-ipag
 
 # IpagClient
 

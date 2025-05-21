@@ -1,10 +1,10 @@
-# iPag PHP client SDK
+# <img align="super" alt="iPag Logo" src="https://blog.ipag.com.br/wp-content/uploads/2022/07/logo-ipag.png" width="180"> &nbsp; **SDK** para PHP
 
-> A ferramenta certa para uma rápida e segura integração com o iPag e a sua aplicação PHP.
+A ferramenta certa para efetuar a sua integração de forma rápida e segura com os serviços iPag.
 
 ### Observação
 
-Esta SDK, necessariamente, não reflete 100% dos recursos e funcionalidades disponíveis na API do iPag. Veja a documentação completa da API em [https://developers.ipag.com.br/](https://developers.ipag.com.br/).
+Este SDK, não necessariamente, reflete todos dos recursos e funcionalidades disponíveis na API do iPag. Veja a documentação completa da API em [https://developers.ipag.com.br/](https://developers.ipag.com.br/).
 
 ## Status
 
@@ -156,7 +156,7 @@ Esta SDK, necessariamente, não reflete 100% dos recursos e funcionalidades disp
 
 Execute em seu shell:
 
-    composer require ipagdevs/ipag-sdk-php
+    composer require webflixtec/sdk-php-ipag
 
 # IpagClient
 

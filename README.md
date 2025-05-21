@@ -103,6 +103,7 @@ Esta SDK, necessariamente, não reflete 100% dos recursos e funcionalidades disp
     - [Listar Lançamentos Futuros de Vendedor (Por CPF/CNPJ)](#listar-lançamentos-futuros-de-vendedor-por-cpfcnpj)
 - [Link de Pagamento (Payment Links)](#link-de-pagamento-payment-links)
     - [Novo Link de Pagamento](#novo-link-de-pagamento)
+    - [Alterar Link de Pagamento](#alterar-link-de-pagamento)
     - [Obter Link de Pagamento (Por Id)](#obter-link-de-pagamento-por-id)
     - [Obter Link de Pagamento (Por External Code)](#obter-link-de-pagamento-por-external-code)
 - [Webhook](#webhook)
@@ -1091,6 +1092,12 @@ $paymentLink = (new \Ipag\Sdk\Model\PaymentLink())
 
 ```php
 $responsePaymentLink = $ipagClient->paymentLinks()->create($paymentLink);
+```
+
+### Alterar Link de Pagamento
+
+```php
+$responsePaymentLink = $ipagClient->paymentLinks()->update($paymentLink, $paymentLinkId);
 ```
 
 ### Obter Link de Pagamento (Por Id)

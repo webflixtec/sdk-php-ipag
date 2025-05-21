@@ -25,6 +25,24 @@ class PaymentLinksEndpoint extends Endpoint
     {
         return $this->_POST($paymentLink->jsonSerialize());
     }
+    
+    /**
+     * Endpoint para atualizar um recurso `Payment Link`
+     *
+     * @param PaymentLink $paymentLink
+     * @param integer $id
+     * @return Response
+     *
+     * @codeCoverageIgnore
+     */
+    public function update(PaymentLink $paymentLink, int $id): Response
+    {
+        $this->location = vsprintf('/service/v2/payment_links/%s', [
+            $id
+        ]);
+        
+        return $this->_PUT($paymentLink);
+    }
 
     /**
      * Endpoint para obter um recurso `Payment Link`

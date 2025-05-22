@@ -26,7 +26,7 @@ class JsonSerializer implements SerializerInterface
         return $data;
     }
 
-    public function unserialize(string $data): array
+    public function unserialize(string $data): array|null
     {
         $data = json_decode($data, true, $this->depth, $this->flags);
 
